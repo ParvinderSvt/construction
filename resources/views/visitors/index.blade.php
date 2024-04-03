@@ -609,17 +609,17 @@
                     <div class="">
                         <form action="{{ route('enquiry') }}" method="POST" class="appointment-form ftco-animate fadeInUp ftco-animated">
                             @csrf
-                            <h3>Request Quote</h3>
+                            <h3>Apply Now</h3>
                             <div class="">
                                 <div class="form-group">
                                     <input type="text" class="form-control" placeholder="First Name"
-                                        autocomplete="off" name="fname">
+                                        autocomplete="off" name="fname" required>
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Last Name" name="lname">
+                                    <input type="text" class="form-control" placeholder="Last Name" name="lname" required>
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Phone" name="phone">
+                                    <input type="text" class="form-control" placeholder="Phone" name="phone" required>
                                 </div>
                             </div>
 

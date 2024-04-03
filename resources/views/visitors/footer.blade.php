@@ -267,7 +267,7 @@
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h3 class="modal-title p-2" id="exampleModalLabel">Request Quote</h3>
+          <h3 class="modal-title p-2" id="exampleModalLabel">Apply Now</h3>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">X</span>
           </button>
@@ -277,13 +277,13 @@
                 @csrf
                 <div class="">
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="First Name" name="fname" >
+                        <input type="text" class="form-control" placeholder="First Name" name="fname" required>
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Last Name" name="lname" >
+                        <input type="text" class="form-control" placeholder="Last Name" name="lname" required>
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Phone" name="phone" >
+                        <input type="text" class="form-control" placeholder="Phone" name="phone" required >
                     </div>
                 </div>
                 <div class="">
@@ -291,7 +291,7 @@
                         <div class="form-field">
                             <div class="select-wrap">
                                 <div class="icon"><span class="fa fa-chevron-down"></span></div>
-                                <select name="course" id="" class="form-control">
+                                <select name="course" id="" class="form-control" required>
                                     <option value="">Select Courses</option>
                                     <option value="Level 2">Level 2</option>
                                     <option value="Level 3">Level 3</option>
@@ -310,7 +310,7 @@
                         <div class="form-field">
                             <div class="select-wrap">
                                 <div class="icon"><span class="fa fa-chevron-down"></span></div>
-                                <select name="card" id="" class="form-control">
+                                <select name="card" id="" class="form-control" required>
                                     <option value="Apply for Construction Card">Apply for Construction Card</option>
                                     <option value="RED APPRENTICE CARD">RED APPRENTICE CARD</option>
                                     <option value="INDUSTRY PLACEMENT CONSTRUCTION CARD">INDUSTRY PLACEMENT CONSTRUCTION CARD</option>
