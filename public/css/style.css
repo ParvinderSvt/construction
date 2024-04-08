@@ -13476,3 +13476,19 @@ heading-section {
     font-weight: 700;
     color: black;
 }
+
+.sticky-btn1{
+   padding: ;
+}
+
+/* sticky-btn {
+    padding: 5px 10px;
+    position: fixed;
+    bottom: 50%;
+    left: 1px;
+    background-color: #fc5e28;
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px #fff;
+    font-weight: 200;
+} *

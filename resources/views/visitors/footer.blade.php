@@ -164,7 +164,8 @@
                     </div>
                     <div class="">
                         <div class="form-group">
-                            <textarea name="" id="" cols="30" rows="4" class="form-control" placeholder="Message"></textarea>
+                            <textarea name="" id="" cols="30" rows="4" class="form-control"
+                                placeholder="Message"></textarea>
                         </div>
                         <div class="form-group">
                             <input type="submit" value="Request A Quote" class="btn btn-primary py-3 px-4">
@@ -178,15 +179,23 @@
 
 <!-- loader -->
 <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
-        <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4"
-            stroke="#eeeeee" />
-        <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4"
-            stroke-miterlimit="10" stroke="#F96D00" />
+        <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+        <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+            stroke="#F96D00" />
     </svg></div>
 
 <a data-toggle="modal" data-target="#exampleModal" href="#exampleModal" class="sticky-btn">Apply Now</a>
+<a href="tel:03333390390" style="position: fixed;
+    z-index: 999;
+    bottom: 6px;
+    border-top-right-radius: 7px;
+    background: #631ee9;
+    color: #fff;
+    padding: 2px 8px;
+    box-shadow: 1px 1px 1px #a5a5a5;
+    border-bottom-right-radius: 7px;">Call us : 03333390390</a>
 
- <!-- Modal -->
+<!-- Modal -->
 {{-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -202,13 +211,13 @@
                             <h3>Request Quote</h3>
                             <div class="">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="First Name" name="fname" >
+                                    <input type="text" class="form-control" placeholder="First Name" name="fname">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Last Name" name="lname" >
+                                    <input type="text" class="form-control" placeholder="Last Name" name="lname">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Phone" name="phone" >
+                                    <input type="text" class="form-control" placeholder="Phone" name="phone">
                                 </div>
                             </div>
                             <div class="">
@@ -231,29 +240,41 @@
                                 </div>
                             </div>
                             <div class="">
-                            <div class="form-group">
+                                <div class="form-group">
                                     <div class="form-field">
                                         <div class="select-wrap">
                                             <div class="icon"><span class="fa fa-chevron-down"></span></div>
                                             <select name="card" id="" class="form-control">
-                                                <option value="Apply for Construction Card">Apply for Construction Card</option>
+                                                <option value="Apply for Construction Card">Apply for Construction Card
+                                                </option>
                                                 <option value="RED APPRENTICE CARD">RED APPRENTICE CARD</option>
-                                                <option value="INDUSTRY PLACEMENT CONSTRUCTION CARD">INDUSTRY PLACEMENT CONSTRUCTION CARD</option>
-                                                <option value="RED EXPERIENCED WORKER CONSTRUCTION CARD">RED EXPERIENCED WORKER CONSTRUCTION CARD</option>
-                                                <option value="RED CONSTRUCTION CARD – EXPERIENCED TECHNICIAN, SUPERVISOR OR MANAGER">RED CONSTRUCTION CARD – EXPERIENCED TECHNICIAN, SUPERVISOR OR MANAGER</option>
-                                                <option value="PROVISIONAL RED CONSTRUCTION CARD">PROVISIONAL RED CONSTRUCTION CARD</option>
-                                                <option value="RED CONSTRUCTION CARD – TRAINEE">RED CONSTRUCTION CARD – TRAINEE</option>
-                                                <option value="WHITE/YELLOW CONSTRUCTION CARD – ACADEMICALLY QUALIFIED PERSON">WHITE/YELLOW CONSTRUCTION CARD – ACADEMICALLY QUALIFIED PERSON</option>
+                                                <option value="INDUSTRY PLACEMENT CONSTRUCTION CARD">INDUSTRY PLACEMENT
+                                                    CONSTRUCTION CARD</option>
+                                                <option value="RED EXPERIENCED WORKER CONSTRUCTION CARD">RED EXPERIENCED
+                                                    WORKER CONSTRUCTION CARD</option>
+                                                <option
+                                                    value="RED CONSTRUCTION CARD – EXPERIENCED TECHNICIAN, SUPERVISOR OR MANAGER">
+                                                    RED CONSTRUCTION CARD – EXPERIENCED TECHNICIAN, SUPERVISOR OR
+                                                    MANAGER</option>
+                                                <option value="PROVISIONAL RED CONSTRUCTION CARD">PROVISIONAL RED
+                                                    CONSTRUCTION CARD</option>
+                                                <option value="RED CONSTRUCTION CARD – TRAINEE">RED CONSTRUCTION CARD –
+                                                    TRAINEE</option>
+                                                <option
+                                                    value="WHITE/YELLOW CONSTRUCTION CARD – ACADEMICALLY QUALIFIED PERSON">
+                                                    WHITE/YELLOW CONSTRUCTION CARD – ACADEMICALLY QUALIFIED PERSON
+                                                </option>
                                             </select>
                                         </div>
                                         <br>
-                                <!-- <div class="form-group">
+                                        <!-- <div class="form-group">
                                     <textarea name="" id="" cols="30" rows="4" class="form-control" placeholder="Message"></textarea>
                                 </div> -->
-                                <div class="form-group">
-                                    <input type="submit" value="Request A Quote" class="btn btn-primary py-3 px-4">
-                                </div>
-                            </div>
+                                        <div class="form-group">
+                                            <input type="submit" value="Request A Quote"
+                                                class="btn btn-primary py-3 px-4">
+                                        </div>
+                                    </div>
                         </form>
                     </div>
                 </div>
@@ -263,79 +284,88 @@
     </div>
 </div> --}}
 <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
     <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h3 class="modal-title p-2" id="exampleModalLabel">Apply Now</h3>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">X</span>
-          </button>
-        </div>
-        <div class="modal-body">
-            <form action="{{ route('form') }}" method="POST" class="appointment-form ftco-animate">
-                @csrf
-                <div class="">
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="First Name" name="fname" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Last Name" name="lname" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Phone" name="phone" required >
-                    </div>
-                </div>
-                <div class="">
-                    <div class="form-group">
-                        <div class="form-field">
-                            <div class="select-wrap">
-                                <div class="icon"><span class="fa fa-chevron-down"></span></div>
-                                <select name="course" id="" class="form-control" required>
-                                    <option value="">Select Courses</option>
-                                    <option value="Level 2">Level 2</option>
-                                    <option value="Level 3">Level 3</option>
-                                    <option value="Level 4">Level 4</option>
-                                    <option value="Level 5">Level 5</option>
-                                    <option value="Level 6">Level 6</option>
-                                    <option value="Level 7">Level 7</option>
-                                </select>
-                            </div>
-
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title p-2" id="exampleModalLabel">Apply Now</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">X</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form action="{{ route('form') }}" method="POST" class="appointment-form ftco-animate">
+                    @csrf
+                    <div class="">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="First Name" name="fname" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Last Name" name="lname" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Phone" name="phone" required>
                         </div>
                     </div>
-                </div>
-                <div class="">
-                <div class="form-group">
-                        <div class="form-field">
-                            <div class="select-wrap">
-                                <div class="icon"><span class="fa fa-chevron-down"></span></div>
-                                <select name="card" id="" class="form-control" required>
-                                    <option value="Apply for Construction Card">Apply for Construction Card</option>
-                                    <option value="RED APPRENTICE CARD">RED APPRENTICE CARD</option>
-                                    <option value="INDUSTRY PLACEMENT CONSTRUCTION CARD">INDUSTRY PLACEMENT CONSTRUCTION CARD</option>
-                                    <option value="RED EXPERIENCED WORKER CONSTRUCTION CARD">RED EXPERIENCED WORKER CONSTRUCTION CARD</option>
-                                    <option value="RED CONSTRUCTION CARD – EXPERIENCED TECHNICIAN, SUPERVISOR OR MANAGER">RED CONSTRUCTION CARD – EXPERIENCED TECHNICIAN, SUPERVISOR OR MANAGER</option>
-                                    <option value="PROVISIONAL RED CONSTRUCTION CARD">PROVISIONAL RED CONSTRUCTION CARD</option>
-                                    <option value="RED CONSTRUCTION CARD – TRAINEE">RED CONSTRUCTION CARD – TRAINEE</option>
-                                    <option value="WHITE/YELLOW CONSTRUCTION CARD – ACADEMICALLY QUALIFIED PERSON">WHITE/YELLOW CONSTRUCTION CARD – ACADEMICALLY QUALIFIED PERSON</option>
-                                </select>
-                            </div>
-                            <br>
+                    <div class="">
+                        <div class="form-group">
+                            <div class="form-field">
+                                <div class="select-wrap">
+                                    <div class="icon"><span class="fa fa-chevron-down"></span></div>
+                                    <select name="course" id="" class="form-control" required>
+                                        <option value="">Select Courses</option>
+                                        <option value="Level 2">Level 2</option>
+                                        <option value="Level 3">Level 3</option>
+                                        <option value="Level 4">Level 4</option>
+                                        <option value="Level 5">Level 5</option>
+                                        <option value="Level 6">Level 6</option>
+                                        <option value="Level 7">Level 7</option>
+                                    </select>
+                                </div>
 
-                    {{-- <div class="form-group">
-                        <input type="" value="Request A Quote" class="btn btn-primary py-3 px-4">
-                    </div> --}}
-                </div>
-            </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="">
+                        <div class="form-group">
+                            <div class="form-field">
+                                <div class="select-wrap">
+                                    <div class="icon"><span class="fa fa-chevron-down"></span></div>
+                                    <select name="card" id="" class="form-control" required>
+                                        <option value="Apply for Construction Card">Apply for Construction Card</option>
+                                        <option value="RED APPRENTICE CARD">RED APPRENTICE CARD</option>
+                                        <option value="INDUSTRY PLACEMENT CONSTRUCTION CARD">INDUSTRY PLACEMENT
+                                            CONSTRUCTION CARD</option>
+                                        <option value="RED EXPERIENCED WORKER CONSTRUCTION CARD">RED EXPERIENCED WORKER
+                                            CONSTRUCTION CARD</option>
+                                        <option
+                                            value="RED CONSTRUCTION CARD – EXPERIENCED TECHNICIAN, SUPERVISOR OR MANAGER">
+                                            RED CONSTRUCTION CARD – EXPERIENCED TECHNICIAN, SUPERVISOR OR MANAGER
+                                        </option>
+                                        <option value="PROVISIONAL RED CONSTRUCTION CARD">PROVISIONAL RED CONSTRUCTION
+                                            CARD</option>
+                                        <option value="RED CONSTRUCTION CARD – TRAINEE">RED CONSTRUCTION CARD – TRAINEE
+                                        </option>
+                                        <option value="WHITE/YELLOW CONSTRUCTION CARD – ACADEMICALLY QUALIFIED PERSON">
+                                            WHITE/YELLOW CONSTRUCTION CARD – ACADEMICALLY QUALIFIED PERSON</option>
+                                    </select>
+                                </div>
+                                <br>
+
+                                {{-- <div class="form-group">
+                                    <input type="" value="Request A Quote" class="btn btn-primary py-3 px-4">
+                                </div> --}}
+                            </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="submit" class="btn btn-primary">Request A Quote</button>
+            </div>
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="submit" class="btn btn-primary">Request A Quote</button>
-        </div>
-      </div>
     </div>
-  </div>
+</div>
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
     var Tawk_API = Tawk_API || {},
@@ -386,11 +416,11 @@
 <script src="{{ config('app.url') }}/js/main.js"></script>
 
 @if (Session::has('success'))
-    <script>
-        swal("Success", "{{ Session::get('success') }}", 'success', {
+<script>
+    swal("Success", "{{ Session::get('success') }}", 'success', {
             buttons: {
                 confirm: "OK",
             },
         });
-    </script>
+</script>
 @endif
